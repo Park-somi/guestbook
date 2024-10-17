@@ -3,7 +3,7 @@ FROM openjdk:11
 ARG VERSION
 
 COPY target/guestbook-0.0.1-SNAPSHOT.jar /app/guestbook.jar
- 
+
 LABEL maintainer="Park So Mi<somp8320@gmail.com>" \
       title="Guestbook App" \
       version="$VERSION" \
