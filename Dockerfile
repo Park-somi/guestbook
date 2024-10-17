@@ -8,7 +8,7 @@ LABEL maintainer="Park So Mi<somp8320@gmail.com>" \
       title="Guestbook App" \
       version="$VERSION" \
       description="This image is guestbook service"
-
+ 
 ENV APP_HOME /app
 EXPOSE 8080
 VOLUME /app/upload
